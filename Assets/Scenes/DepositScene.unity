@@ -1066,8 +1066,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ATMSystem, Assembly-CSharp
+      - m_Target: {fileID: 1392121909}
+        m_TargetAssemblyTypeName: DepositScene, Assembly-CSharp
         m_MethodName: CancelDeposit
         m_Mode: 1
         m_Arguments:
@@ -1276,8 +1276,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ATMSystem, Assembly-CSharp
+      - m_Target: {fileID: 1392121909}
+        m_TargetAssemblyTypeName: DepositScene, Assembly-CSharp
         m_MethodName: Deposit10000
         m_Mode: 3
         m_Arguments:
@@ -1409,8 +1409,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ATMSystem, Assembly-CSharp
+      - m_Target: {fileID: 1392121909}
+        m_TargetAssemblyTypeName: DepositScene, Assembly-CSharp
         m_MethodName: ConfirmDeposit
         m_Mode: 1
         m_Arguments:
@@ -1939,8 +1939,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ATMSystem, Assembly-CSharp
+      - m_Target: {fileID: 1392121909}
+        m_TargetAssemblyTypeName: DepositScene, Assembly-CSharp
         m_MethodName: Deposit100000
         m_Mode: 3
         m_Arguments:
@@ -2048,10 +2048,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_FontSize: 18
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -2059,7 +2059,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "10000\uC6D0"
+  m_Text: "10,000\uC6D0 \uC785\uAE08"
 --- !u!222 &1066624229
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2127,10 +2127,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_FontSize: 18
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -2138,7 +2138,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "50000\uC6D0"
+  m_Text: "50,000\uC6D0 \uC785\uAE08"
 --- !u!222 &1120051354
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2282,10 +2282,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_FontSize: 18
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -2293,7 +2293,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "100000\uC6D0"
+  m_Text: "100,000\uC6D0 \uC785\uAE08"
 --- !u!222 &1252553243
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2464,8 +2464,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ATMSystem, Assembly-CSharp
+      - m_Target: {fileID: 1392121909}
+        m_TargetAssemblyTypeName: DepositScene, Assembly-CSharp
         m_MethodName: Deposit50000
         m_Mode: 3
         m_Arguments:
@@ -2908,7 +2908,6 @@ MonoBehaviour:
   Name: {fileID: 7235184}
   balanceText: {fileID: 1256635427}
   cashText: {fileID: 93654802}
-  text: {fileID: 0}
   DepositPopup: {fileID: 1317975966}
   depositAmountInput: {fileID: 540338409}
 --- !u!1 &1437288516

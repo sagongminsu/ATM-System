@@ -31,7 +31,7 @@ public class DepositScene : MainScene
             // 입력값이 숫자인지 확인
             if (int.TryParse(inputText, out int amount))
             {
-                if (amount > 0)
+                if (cash > 0)
                 {
                     // 유효한 숫자로 변환되면 입금 처리
                     if (cash >= amount)

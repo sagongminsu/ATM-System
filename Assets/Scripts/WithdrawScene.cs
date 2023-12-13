@@ -21,7 +21,7 @@ public class WithdrawScene : MainScene
     }
 
 
-    public void ConfirmDeposit()
+    public void ConfirmWithdrawScene()
     {
         string inputText = WithdrawAmountInput.text;
 
@@ -31,7 +31,7 @@ public class WithdrawScene : MainScene
             // 입력값이 숫자인지 확인
             if (int.TryParse(inputText, out int amount))
             {
-                if (amount > 0)
+                if (balance > 0 )
                 {
                     // 유효한 숫자로 변환되면 입금 처리
                     if (cash >= amount)
